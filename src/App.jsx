@@ -1,4 +1,6 @@
-import Hero from "./component/Hero"
+import FormSubmit from "./components/FormSubmit";
+import Hero from "./components/Hero"
+import Home from "./pages/Home";
 // import Demo from "./Demo"
 
 function App() {
@@ -14,6 +16,9 @@ function App() {
   return (
     <>
       {/* <Demo /> */}
+      <Home />
+      <FormSubmit />
+      {/* <Hero title="Learn React With Vite" des="How to pass props" /> */}
       <Hero title="Learn React With Vite" des="How to pass props" 
       item={ItemObj} 
       ChildBtnClick={BtnClick}/>
